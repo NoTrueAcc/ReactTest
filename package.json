@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/NoTrueAcc/ReactTest/issues"
   },
-  "homepage": "https://github.com/NoTrueAcc/ReactTest#readme"
+  "homepage": "https://github.com/NoTrueAcc/ReactTest#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.31.0"
+  }
 }
