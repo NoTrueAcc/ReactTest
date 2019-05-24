@@ -1,7 +1,18 @@
-var $ = require('jquery');
-var sppConst = require('./constants.js');
-require('./less');
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-var App = function() { $('body').html('<div class="b-test"><h3 class="b-test__heading">Heading! <div>hello nigga!!!</div></h3></div>'); };
+class App extends React.Component {
 
-App();
+    render() {
+        return <div>
+            <h1 className="h1_test">Its first React project!</h1>
+            <h2>Hello Irker!!!!!!!!!!</h2>
+            <h2>Hello Irker!!!!!!!!!!</h2>
+        </div>
+    }
+}
+
+ReactDOM.render(
+                <App>adsadasdadasd</App>,
+    document.getElementById('app_test')
+);
